@@ -2,9 +2,9 @@
 
 
 
-Build | Code Quality | Unity | Git Inspector
+Build | Code Quality | Unit Testing | Git Inspector
 |---------|------------|-----------|----------------
-| [![Python application](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml)        |[![Pylint](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml)|           |  [![Contribution Check - Git Inspector](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml)
+| [![Python application](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml)        |[![Pylint](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml)| [![Pytest](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml)         |  [![Contribution Check - Git Inspector](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure

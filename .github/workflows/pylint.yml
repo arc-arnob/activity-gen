@@ -21,4 +21,5 @@ jobs:
     - name: Analysing the code with pylint
       run: |
         ls
+        cd 3_Implementation
         pylint `ls -R|grep .py$|xargs`

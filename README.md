@@ -4,7 +4,7 @@
 
 Build | Code Quality | Unity | Git Inspector
 |---------|------------|-----------|----------------
-|         |[![Pylint](https://github.com/GENESIS2021Q1/sdlc-team-31/actions/workflows/pylint.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-31/actions/workflows/pylint.yml)             |           |  [![Contribution Check - Git Inspector](https://github.com/GENESIS2021Q1/sdlc-team-31/actions/workflows/arc-gitinspector.yml/badge.svg)](https://github.com/GENESIS2021Q1/sdlc-team-31/actions/workflows/arc-gitinspector.yml)
+| [![Python application](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml)        |[![Pylint](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml)|           |  [![Contribution Check - Git Inspector](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml)
 
 
 ## Folder Structure

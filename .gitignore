@@ -1,0 +1,5 @@
+.venv
+venv
+sudoku_env
+.pytest_cache
+__pycache__

@@ -1,11 +1,9 @@
 from snake_game.snake import *
 from sudoku_game.algorithm import *
-from sudoku_game.boards import board_easy,board_hard,board_mid,board_very_hard,board_notnull
-import pytest
+from sudoku_game.boards import board_easy, board_hard, board_mid, board_very_hard, board_notnull
 
 
 def test_reset():
-    cube = Cube(20, 20, color=(213, 234, 123))
     snake = Snake((121, 121, 121), (10, 10))
     assert snake.reset((10, 10)) == 0
 
@@ -36,7 +34,6 @@ def test_move_down():
 
 
 def test_draw_grid():
-    r = 20
     width = 500
     height = 500
     windows = pygame.display.set_mode((width, height))
@@ -50,12 +47,12 @@ def test_find_empty():
     assert find_empty(board_hard) is not None  # test case 4
     assert find_empty(board_very_hard) is not None  # test case 5
 
+
 def test_solver():
     assert solver(board_notnull) is True  # test case 1
 
 
 def test_cube_draw():
-    r = 20
     width = 500
     height = 500
     cube = Cube((20, 20), color=(213, 234, 123))
@@ -94,10 +91,7 @@ def test_snake_draw():
 
 
 def test_reset_window():
-    r = 20
     width = 500
-    snake = Snake((255, 0, 0), (10, 10))
-    snack = Cube((20, 20))
     windows = pygame.display.set_mode((width, width))
     assert redraw_window(windows) == 0
 

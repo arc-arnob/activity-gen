@@ -4,7 +4,7 @@
 
 Build | Code Quality | Unit Testing | Git Inspector
 |---------|------------|-----------|----------------
-| [![Python application](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml)        |[![Pylint](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/pylint.yml) [![flake8](https://github.com/arc-arnob/activity-gen/actions/workflows/flake8.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/flake8.yml)| [![Pytest](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml)         |  [![Contribution Check - Git Inspector](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml)
+| [![Python application](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/python-app.yml)        |[![flake8](https://github.com/arc-arnob/activity-gen/actions/workflows/flake8.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/flake8.yml)| [![Pytest](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/main.yml)         |  [![Contribution Check - Git Inspector](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml/badge.svg)](https://github.com/arc-arnob/activity-gen/actions/workflows/gitinspector.yml)
 
 
 
@@ -15,21 +15,31 @@ Folder             | Description
 `2_Design`         | Documents specifying design details
 `3_Implementation` | All code and documentation
 `4_Test_plan`      | Documents with test plans and procedures
+-----
+
 
 ## Contributors List and Summary
 
 PS Id. |  Name   |    Features    | Issues Raised | Issues Resolved | No Test Cases |Test Case Pass
 -------|---------|----------------|----------------|---------------|-------------|--------------
-`99004349` | Arnob Chowdhury  | Snake GUI, Main Menu, Git Workflow, Code coverage, Code refactor- Tic Tac Toe, Connect Four  |  21    | 16  | 27  | 27     
-`99004351` | Debashish Dash  | Sudoku solver, breaking files intomodules, Main menu, Coloring and clear-screen feature in main.py and sudoku.py, Banner and cover page of the project | 8   | 5  | 7  | 7  
+`99004349` | Arnob Chowdhury  | Snake GUI, Main Menu, Git Workflow, Code coverage, Code refactor- Tic Tac Toe, Connect Four, input validation, pylint  |  21    | 16  | 27  | 27     
+`99004351` | Debashish Dash  | Sudoku solver, breaking files intomodules, Main menu, Coloring and clear-screen feature in main.py and sudoku.py, Banner and cover page of the project, Pylint and Docstring for tetris and Sudoku module | 9   | 8  | 7  | 7  
 `99004350` | Durgapu Venkata Shyam Sudheer  | Tetris GUI,Documentaion,Report |   2   | 5  | 0  | 0  
-`99004352` | Anshul Mehta  | <TBD>  | <TBD>     | <TBD>  |<TBD>  | <TBD>
-`99004353` | Anmol Tandon  |  | 3 | 4 | 6 | 6
- * **note: some test cases where user inuts are required are tested manually, those are not mentiones here, those test cases are written in the [4_TestPlans
- folder](https://github.com/GENESIS2021Q1/sdlc-team-31/tree/main/4_TestPlan) || Manually tested test cases: L_18, L19, H_09, H_10**
+`99004352` | Anshul Mehta  | Tictactoe game, Report making, defining user requirements | 0     | 3  |12  | 12
+`99004353` | Anmol Tandon  | Connect four GUI, Unit Testing, Report Building, State of Art and assigned work | 3 | 5 | 6 | 6
+
+ **Note: some test cases where user inuts are required are tested manually, those are not mentiones here, those test cases are written in the [4_TestPlans
+ folder](https://github.com/GENESIS2021Q1/sdlc-team-31/tree/main/4_TestPlan). Manually tested test cases: L_18, L19, H_09, H_10**
  
- ------
- 
+## Contribution Check
+PS Id.| Name | Commits
+|-----|------|-------
+99004349 | Arnob | 105
+99004350 | sudheer | 50
+99004351| Debashish | 102
+99004352| Anshul | 34
+99004353| Anmol | 54
+ ## Feature List
 | Feature Id | Feature | Status
 | -----------|---------|------
 |F_01| Snake game GUI  | IMPLEMENTED
@@ -45,7 +55,7 @@ PS Id. |  Name   |    Features    | Issues Raised | Issues Resolved | No Test Ca
 ## Challenges Faced and How Was It Overcome
 | No. | Challenge | Solution
 |-----|-----------|--------
-|1. | <TBD>|
+|1. | Git Workflows| Manual Execution and reporting
 
 ## Run on your PC 
 
@@ -73,6 +83,21 @@ You will build and run a gaming console which will allow you to play CLI and GUI
   * Navigate to 3_Implementation
   * in command line execute `pytest --cov=. --cov-report term test.py`
   * to view % coverage please follow the link: [Code Coverage Report](https://github.com/GENESIS2021Q1/sdlc-team-31/tree/main/3_Implementation#code-coverage-report)
+
+### To perform Linting follow steps below
+  * cd to /<package_name>
+  * run `pylint <file_name>.py`
+### To view Pylint reports follow table below:
+| **File Name** | **Report**
+|---------------|-----------
+main.py | [Main Menu Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/main.txt)
+sudoku.py | [Sudoku Feature Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/sudokumodule)
+snake.py | [Snake GUI Feature Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/snake.txt)
+c4.py | [connect four GUI Feature Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/c4.text)
+tictactoe.py | [Tic Tac Toe Feature Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/tictactoe.txt)
+tetris.py | [Tetris Feature Report](https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/3_Implementation/pylint_reports/tetrismodule)
+
+
 
   
 # References

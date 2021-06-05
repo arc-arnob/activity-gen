@@ -32,7 +32,7 @@
 
 **State Machine Diagram**
 
-<img src="https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/2_Design/state_machine_snake (1).png" height="600" width="800">
+<img src="https://github.com/GENESIS2021Q1/sdlc-team-31/blob/main/2_Design/state_diagram_snake.png" height="600" width="800">
 
 **Activity Diagram**
 

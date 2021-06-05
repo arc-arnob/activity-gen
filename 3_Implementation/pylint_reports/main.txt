@@ -1,0 +1,8 @@
+************* Module main
+main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+main.py:54:0: R0912: Too many branches (20/12) (too-many-branches)
+main.py:54:0: R0915: Too many statements (60/50) (too-many-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 9.63/10 (previous run: 9.63/10, +0.00)
+

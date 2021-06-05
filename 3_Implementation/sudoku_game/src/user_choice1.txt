@@ -1,4 +1,0 @@
-                                    
-                                    Enter 1 for solving available problems.
-
-                                    Enter 2 for giving your own sudoku problem.

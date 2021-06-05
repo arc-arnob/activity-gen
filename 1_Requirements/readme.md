@@ -1,4 +1,7 @@
 # Detailed requirements
+ 
+ # Defining User Requirements:
+   The intended Users for this project are programmers and people who like to play mini games. All the features and functionalities in this project are relevant to the specified    users. An interface shall be provided for the users to interact with the system. The interface will consists of a menu with various options, the user can choose from.            According to user input, relevant processes shall be executed and the user shall be prompted to choose a game and play it. After selecting a game module, user shall be given    instruction on how to leverage the features of the games.
 
  # Identifying the Requirements:
 
@@ -12,6 +15,7 @@
  ## Functional Requirements:
 * The gameboy shall provide user with option to choose from multiple games available.
 * Data of players and high scores in different games shall be kept.
+* Player can choose GUI or CLI games.
 * Users will be able to switch between different games easily.
 * Everytime users quit a particular game, they will return to the main menu.
 ## High Level Requirements: 

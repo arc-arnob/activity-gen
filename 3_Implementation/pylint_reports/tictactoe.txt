@@ -1,0 +1,18 @@
+************* Module tictactoe
+tictactoe.py:17:0: C0301: Line too long (107/100) (line-too-long)
+tictactoe.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+tictactoe.py:1:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:9:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:17:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:19:4: C0103: Variable name "x" doesn't conform to snake_case naming style (invalid-name)
+tictactoe.py:20:4: C0103: Variable name "y" doesn't conform to snake_case naming style (invalid-name)
+tictactoe.py:29:0: C0103: Argument name "xy" doesn't conform to snake_case naming style (invalid-name)
+tictactoe.py:29:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:32:4: R1705: Unnecessary "elif" after "return" (no-else-return)
+tictactoe.py:41:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:88:0: C0116: Missing function or method docstring (missing-function-docstring)
+tictactoe.py:107:12: C0103: Variable name "xy" doesn't conform to snake_case naming style (invalid-name)
+
+------------------------------------------------------------------
+Your code has been rated at 8.60/10 (previous run: 8.60/10, +0.00)
+

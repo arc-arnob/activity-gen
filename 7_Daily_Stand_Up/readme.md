@@ -36,7 +36,41 @@
 
    * Deciding UML diagrams
    * Simplifying UML diagrams
-    
+
+### Date: May 22, 2021
+### Tasks Completed:
+   
+   * Started Implementation of Snake GUI game
+   * Configured GitHub workflows
+
+### Tasks Planned for future
+   
+   * Perform Testing
+   * Make Low level Test Plans
+   * Integrate project
+   
+### Challenges Faced
+
+   * Deciding UML diagrams
+   * Multifile programming
+ 
+ ### Date: May 24, 2021
+### Tasks Completed:
+   
+   * Done with feature coding
+   * Performed Pytest
+   * Performed Code coverage
+   * fixed codes
+
+### Tasks Planned for future
+   
+   * re visit UML diagrams
+   * Make Low level Test Plans
+   * Validate project
+   
+### Challenges Faced
+
+   * Bugs during integration
 
 # Name: Debashish Dash
 ## PS number: 99004351
@@ -70,7 +104,37 @@
 
 ### Challenges Faced
     * git inspector showing error and error is also not visible so it is tough to fix
+    
+    
+## Date: May 24, 2021
 
+### Tasks Completed:
+    * Code almost done
+    * new feature added in the code
+    * Test cases added 
+    * Integration Done with colored banner of he project
+
+### Tasks Planned for future
+    * Report building
+    * few more fixing in the main.py code
+
+### Challenges Faced
+    * During breaking the sudoku code into modules and importing, This issue is resolved
+    * few errors in during the pytest, all issues resolved till now
+    * validation was failing in the sudoku file, issue resolved
+
+## Date: May 25, 2021
+
+### Tasks Completed:
+    
+
+### Tasks Planned for future
+    
+
+### Challenges Faced
+    
+    
+    
 # Name: Anshul Mehta
 ## PS number: 99004352
 ## Date: May 20, 2021
@@ -104,9 +168,42 @@
     * Deciding suitable UML Diagrams.
 
 
+
+## Date: May 24, 2021
+
+### Tasks Completed:
+    * Finished implementing coding part for tictactoe
+    * Completed Unit testing.
+    * Added new test cases.
+    
+
+### Tasks Planned for future:
+    * Code Coverage
+    * Revisiting requirements and test plans
+    
+
+### Challenges Faced:
+    Some test cases were not working and resolved sucessfully.
+    
+
+
+## Date: May 25, 2021
+
+### Tasks Completed:
+    
+
+### Tasks Planned for future
+    
+
+### Challenges Faced
+    
+
+
 # Name: Anmol Tandon
 ## PS number: 99004353
 ## Date: May 20, 2021
+
+
 
 ### Tasks Completed: 
     * Done with Use Case Diagram for High Level Requirements.
@@ -137,9 +234,39 @@
     * Deciding my 4th UML diagram
 
 
+## Date: May 24, 2021
+
+### Tasks Completed:
+    *Done with coding part
+    *Some part of unit testing 
+
+### Tasks Planned for future
+    *Complete unit testing
+    *Kanban
+    *Code coverage
+
+### Challenges Faced
+    *In pytest faced dew challenges
+
+
+## Date: May 25, 2021
+
+### Tasks Completed:
+    *Complete features of connect 4 game
+    *Code coverage
+    *Report Building
+
+### Tasks Planned for future
+    
+
+### Challenges Faced
+    
+    
+
+
 # Name:Durgapu venkata shyam sudheer 
 ## PS number: 99004350
-## Date: May 21, 2021
+## Date: May 20, 2021
 
 ### Tasks Completed:
     * Done with use case diagram for high level requirements.
@@ -162,9 +289,35 @@
     
 
 ### Tasks Planned for future:
-    * code implementation of game.
+    * started  implementation of game.
     * pytest for the code.
     
 ### Challenges Faced:
     * Selecting the uml diagrams.
+    
+
+## Date: May 24, 2021
+
+### Tasks Completed:
+    *implementation of tetris game is completed
+
+### Tasks Planned for future
+    * low level test plans. 
+    * adding new features to game.
+
+### Challenges Faced
+    * challaneges during the implementation of the code.
+    
+
+## Date: May 25, 2021
+
+### Tasks Completed:
+    * low level test plans are completed. 
+    * some changes done in the code part.
+
+### Tasks Planned for future
+    * add the test cases to the game .
+
+### Challenges Faced
+    * testing the project is more challenging to do pytest.
     

@@ -1,0 +1,19 @@
+************* Module c4
+c4.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+c4.py:51:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+c4.py:75:0: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+c4.py:118:22: W0613: Unused argument 'width' (unused-argument)
+c4.py:118:37: W0613: Unused argument 'size' (unused-argument)
+c4.py:185:4: E1101: Module 'pygame' has no 'init' member (no-member)
+c4.py:198:29: E1101: Module 'pygame' has no 'QUIT' member (no-member)
+c4.py:199:16: E1101: Module 'pygame' has no 'quit' member (no-member)
+c4.py:202:29: E1101: Module 'pygame' has no 'MOUSEMOTION' member (no-member)
+c4.py:211:29: E1101: Module 'pygame' has no 'MOUSEBUTTONDOWN' member (no-member)
+c4.py:195:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+c4.py:195:4: R1702: Too many nested blocks (6/5) (too-many-nested-blocks)
+c4.py:175:0: R0912: Too many branches (14/12) (too-many-branches)
+c4.py:175:0: R0915: Too many statements (54/50) (too-many-statements)
+
+------------------------------------------------------------------
+Your code has been rated at 7.07/10 (previous run: 7.07/10, +0.00)
+

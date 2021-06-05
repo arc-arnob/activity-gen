@@ -1,0 +1,20 @@
+************* Module snake
+snake.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+snake.py:96:29: E1101: Module 'pygame' has no 'QUIT' member (no-member)
+snake.py:97:16: E1101: Module 'pygame' has no 'quit' member (no-member)
+snake.py:103:24: E1101: Module 'pygame' has no 'K_LEFT' member (no-member)
+snake.py:108:26: E1101: Module 'pygame' has no 'K_RIGHT' member (no-member)
+snake.py:113:26: E1101: Module 'pygame' has no 'K_UP' member (no-member)
+snake.py:118:26: E1101: Module 'pygame' has no 'K_DOWN' member (no-member)
+snake.py:90:4: R1710: Either all return statements in a function should return an expression, or none of them should. (inconsistent-return-statements)
+snake.py:90:4: R0912: Too many branches (15/12) (too-many-branches)
+snake.py:264:18: W0108: Lambda may not be necessary (unnecessary-lambda)
+snake.py:279:4: E1101: Module 'pygame' has no 'init' member (no-member)
+snake.py:281:4: W0601: Global variable 'R' undefined at the module level (global-variable-undefined)
+snake.py:281:4: W0601: Global variable 'WIDTH' undefined at the module level (global-variable-undefined)
+snake.py:281:4: W0601: Global variable 'SNAKE' undefined at the module level (global-variable-undefined)
+snake.py:281:4: W0601: Global variable 'SNACK' undefined at the module level (global-variable-undefined)
+
+------------------------------------------------------------------
+Your code has been rated at 7.66/10 (previous run: 7.66/10, +0.00)
+
